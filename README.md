@@ -20,7 +20,11 @@ npm run build --report
 
 >  prod_server.js
 
+``` bash
+
 node prod_server.js
+
+```
 
 使用 express 启动应用服务.
 
