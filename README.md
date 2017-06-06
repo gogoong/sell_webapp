@@ -1,6 +1,6 @@
 # 外卖_webapp
 
-> 搭建使用：Vue、Vue-router、Vue-resource、better-scroll
+> Vue、Vue-router、Vue-resource、better-scroll
 
 ## 安装步骤
 
@@ -18,10 +18,16 @@ npm run build
 npm run build --report
 ```
 
+>  prod_server.js
+
+node prod_server.js
+
+使用 express 启动应用服务.
+
 > 页面展示：
 
 ![vue页面][vue]
 
 [vue]: <./md_01.gif> "vue构建的页面"
 
-* For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

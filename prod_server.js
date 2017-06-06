@@ -2,7 +2,6 @@ var express = require('express');
 var config = require('./config/index');
 // process：（全局对象）  Node所处的当前进程
 var port = process.env.PORT || config.build.port;
-var ip = '45.78.60.34';
 
 // 创建 express 实例
 var app = express();
@@ -50,10 +49,10 @@ app.use('/api', apiRoutes);
 // 注册 静态文件中间件
 app.use(express.static('./dist'));
 
-module.exports = app.listen(port, ip, function (err) {
+module.exports = app.listen(port, function (err) {
 	if (err) {
 		console.log(err);
 		return;
 	}
-	console.log('Listening at http://' + ip + ':' + port + '\n');
+	console.log('Listening at http://localhost:' + port + '\n');
 });
