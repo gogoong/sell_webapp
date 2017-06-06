@@ -24,5 +24,4 @@ npm run build --report
 
 [vue]: <./md_01.gif> "vue构建的页面"
 
-
-** For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader). **
+* For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
