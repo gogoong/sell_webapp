@@ -17,6 +17,9 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+> data.json
+
+项目所需数据.
 
 >  prod_server.js
 
